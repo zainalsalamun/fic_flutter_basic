@@ -1,4 +1,6 @@
 import 'package:fic_flutter_basic/screen/dashboard_furniture.dart';
+import 'package:fic_flutter_basic/widget_lesson/navigation/bottom_navbar.dart';
+import 'package:fic_flutter_basic/widget_lesson/stateful_sample/stateless_stateful_widget.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -16,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: DashboardFurniture(),
+      home: const BottomNavbarWidget(),
     );
   }
 }
