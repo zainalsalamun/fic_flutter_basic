@@ -1,4 +1,11 @@
 import 'package:fic_flutter_basic/screen/dashboard_furniture.dart';
+import 'package:fic_flutter_basic/widget_lesson/basic_widget/button_widget.dart';
+import 'package:fic_flutter_basic/widget_lesson/basic_widget/circle_avatar_widget.dart';
+import 'package:fic_flutter_basic/widget_lesson/basic_widget/container_widget.dart';
+import 'package:fic_flutter_basic/widget_lesson/basic_widget/icon_widget.dart';
+import 'package:fic_flutter_basic/widget_lesson/basic_widget/image_widget.dart';
+import 'package:fic_flutter_basic/widget_lesson/basic_widget/scafold_widget.dart';
+import 'package:fic_flutter_basic/widget_lesson/basic_widget/text_widget.dart';
 import 'package:fic_flutter_basic/widget_lesson/navigation/bottom_navbar.dart';
 import 'package:fic_flutter_basic/widget_lesson/navigation/drawer_widget.dart';
 import 'package:fic_flutter_basic/widget_lesson/navigation/navigation_pop.dart';
@@ -23,7 +30,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const TabbarWidget(),
+      home: const TextWidget(),
     );
   }
 }
