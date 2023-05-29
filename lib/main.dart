@@ -1,4 +1,10 @@
 import 'package:fic_flutter_basic/screen/dashboard_furniture.dart';
+import 'package:fic_flutter_basic/widget_lesson/basic_layout/aspectratio_widget.dart';
+import 'package:fic_flutter_basic/widget_lesson/basic_layout/center_widget.dart';
+import 'package:fic_flutter_basic/widget_lesson/basic_layout/column_widget.dart';
+import 'package:fic_flutter_basic/widget_lesson/basic_layout/expanded_widget.dart';
+import 'package:fic_flutter_basic/widget_lesson/basic_layout/gridview_widget.dart';
+import 'package:fic_flutter_basic/widget_lesson/basic_layout/listview_widget.dart';
 import 'package:fic_flutter_basic/widget_lesson/basic_widget/button_widget.dart';
 import 'package:fic_flutter_basic/widget_lesson/basic_widget/circle_avatar_widget.dart';
 import 'package:fic_flutter_basic/widget_lesson/basic_widget/container_widget.dart';
@@ -30,7 +36,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const TextWidget(),
+      home: ListViewWidget(),
     );
   }
 }
