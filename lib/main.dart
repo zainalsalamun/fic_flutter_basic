@@ -1,4 +1,6 @@
 import 'package:fic_flutter_basic/screen/dashboard_furniture.dart';
+import 'package:fic_flutter_basic/widget_lesson/basic_form/dialog_widget.dart';
+import 'package:fic_flutter_basic/widget_lesson/basic_form/form_widget.dart';
 import 'package:fic_flutter_basic/widget_lesson/basic_layout/aspectratio_widget.dart';
 import 'package:fic_flutter_basic/widget_lesson/basic_layout/center_widget.dart';
 import 'package:fic_flutter_basic/widget_lesson/basic_layout/column_widget.dart';
@@ -36,7 +38,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: ListViewWidget(),
+      home: FormWidget(),
     );
   }
 }
